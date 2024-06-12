@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Frases do Dia
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <br>
+  <ion-img class="custom-img" src="../../assets/motivacao.png" alt="Motivação"></ion-img>
+  <br>
+  <h4 class="bemvindo"><b>Sua dose de Motivação Diaria</b></h4>
+  <br>
+
+  <ion-content>
+    <ion-card>
+      <ion-card-header>
+        {{ getRandomPhrase() }}
+      </ion-card-header>
+    </ion-card>
+  </ion-content>
+
+  
+</ion-content>
